@@ -1,0 +1,130 @@
+/* WelcomePanel.css */
+.welcome-root {
+    display: flex;
+    min-height: 100vh;
+    background: #f8fafc;
+    color: #0f172a;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 260px;
+    background: #ffffff;
+    border-right: 1px solid #e6eef8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .user-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#0f172a,#2563eb);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .username {
+    font-weight: 700;
+  }
+  
+  .email {
+    font-size: 13px;
+    color: #6b7280;
+  }
+  
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .nav-item {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #374151;
+  }
+  
+  .nav-item:hover {
+    background: #f1f5f9;
+  }
+  
+  .sidebar-footer {
+    margin-top: 12px;
+  }
+  
+  /* Main content */
+  .main-area {
+    flex: 1;
+    padding: 28px;
+  }
+  
+  .main-card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(2,6,23,0.04);
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .muted {
+    color: #6b7280;
+    margin-bottom: 16px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+  }
+  
+  .stat {
+    background: #f8fafc;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .stat-label {
+    color: #6b7280;
+    font-size: 13px;
+  }
+  
+  .stat-value {
+    font-weight: 700;
+    margin-top: 6px;
+    font-size: 20px;
+  }
+  
+  .btn-logout {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  

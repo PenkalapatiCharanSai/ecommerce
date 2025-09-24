@@ -1,13 +1,13 @@
-/* body {
+body {
   margin: 0;
   padding: 0;
   background-color: white;   
   color: black;              
   font-family: system-ui, Arial, sans-serif;
-} */
+} 
 
 
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -49,4 +49,4 @@
 
 .read-the-docs {
   color: #b7d1cc;
-} */
+}

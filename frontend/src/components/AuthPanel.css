@@ -1,0 +1,67 @@
+/* AuthPanel.css */
+.auth-layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 32px;
+    align-items: center;
+    padding: 40px;
+    background: #ffffff;
+    color: #111827;
+    box-sizing: border-box;
+  }
+  
+  .auth-left {
+    padding: 24px;
+  }
+  
+  .brand {
+    font-size: 38px;
+    margin: 0 0 6px 0;
+    color: #0f172a;
+  }
+  
+  .tagline {
+    color: #475569;
+    margin: 0 0 20px 0;
+  }
+  
+  .info-card {
+    background: #f8fafc;
+    border: 1px solid #e6eef8;
+    padding: 18px;
+    border-radius: 12px;
+    max-width: 420px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border: 1px solid #e6eef8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(2,6,23,0.04);
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .tabs button {
+    flex: 1;
+    padding: 10px 12px;
+    background: transparent;
+    border: 1px solid #e6eef8;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #374151;
+  }
+  
+  .tabs button.active {
+    background: #eef2ff;
+    border-color: #c7d2fe;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  
